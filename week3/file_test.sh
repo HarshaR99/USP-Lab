@@ -1,6 +1,7 @@
 #!/bin/sh
 
 if test $# -lt 1
+then	
 	echo "Argument not passed"
 	exit 0
 fi
