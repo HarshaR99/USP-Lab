@@ -9,11 +9,11 @@ fi
 if [ -d $1 ]
 then
 echo "$1 is a directory"
-ls -d $1
+ls -ld $1
 elif [ -f $1 ]
 then 
 echo "$1 is a file"
-ls -a $1 
+ls -la $1 
 else
 echo "Wrong path"
 fi
